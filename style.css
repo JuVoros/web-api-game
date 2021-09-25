@@ -1,0 +1,84 @@
+:root {
+  --purple: rgb(140, 26, 240);
+  --white: whitesmoke;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #7632ff;
+  background-color: white;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+/* HTML STYLES */
+header {
+  display: flex;
+}
+header div {
+  width: 50%;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+main {
+  margin-top: 75px;
+}
+h1 {
+  margin: bottom 10px;
+}
+
+section div {
+  text-align: center;
+}
+input {
+    padding:3px;
+    border: 2px soilid black;
+    border-radius: 5px;
+}
+section p {
+  margin: 10px auto;
+}
+/* Classes */
+.btn {
+  margin: 20px;
+  padding: 15px;
+  background-color: var(--purple);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.hidden {
+    display:none;
+}
+.multichoice {
+    color:whitesmoke
+}
+
+/* IDs */
+#container {
+  width: 40%;
+  margin: 0px auto;
+}
+
+#quizDiv,
+#scoreDiv {
+  margin: 20px;
+  text-align: left;
+}
+
+#status {
+  margin: 20px auto;
+  padding: 20px;
+  text-align: left;
+  color: black;
+  font-style: bold;
+}
+
+#timer {
+  text-align: right;
+}

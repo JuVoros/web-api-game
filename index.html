@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+    <title>Web-Api-Game</title>
 </head>
 <body>
-    
+
+    <header>
+        <div id="hiScores"><button>View High Scores</button></div>
+        <div id="timer">Time: <span id="timeLeft"></span> sec</div>
+    </header>
+
+    <main>
+
+        <section>
+
+            <div id="intro">
+
+                <h1>Coding Quiz Challenge</h1>
+
+                <p>Try to answer the following quiz questions<br />
+                    within the time limit.<br />
+                    Any incorrect answers you get <br />
+                    will reduce your time by 10 seconds!</p>
+
+                <button id="begin">Begin Quiz</button>
+
+            </div>
+
+            <div id="container">
+
+                <div id="scoreDiv">
+
+                    <h1>FINISHED</h1>
+
+                    <p> Final score is: <span id="scoreDisplay"></span></p>
+                    
+                    <form>
+                        Enter Initials: <input type="text" name="initials" id="initials">
+                        <button id="submitBtn">Submit</button>
+                    </form>
+
+                </div>
+
+                <div id="quizDiv"></div>
+                <div id="status"></div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

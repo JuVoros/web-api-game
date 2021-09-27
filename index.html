@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
-    <title>Web-Api-Game</title>
+  <meta charset="UTF-8">
+  <title>THE FRUIT QUIZ</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
     <header>
-        <div id="hiScores"><button>View High Scores</button></div>
-        <div id="timer">Time: <span id="timeLeft"></span> sec</div>
+        <div id="highScores"><button> High Scores</button></div>
+        <div id="timer">Time: <span id="timeLeft"></span> Seconds</div>
     </header>
 
     <main>
@@ -20,14 +20,14 @@
 
             <div id="intro">
 
-                <h1>Coding Quiz Challenge</h1>
+                <h1>THE FRUIT QUIZ</h1>
 
-                <p>Try to answer the following quiz questions<br />
-                    within the time limit.<br />
-                    Any incorrect answers you get <br />
-                    will reduce your time by 10 seconds!</p>
+                <p>Try to answer the following fruit quiz<br />
+                    questions within the time limit.<br />
+                    Any incorrect answers you get<br />
+                    will reduce your time by 15 seconds!</p>
 
-                <button id="begin">Begin Quiz</button>
+                <button id="begin">START QUIZ</button>
 
             </div>
 
@@ -35,9 +35,9 @@
 
                 <div id="scoreDiv">
 
-                    <h1>FINISHED</h1>
+                    <h1>FInished!</h1>
 
-                    <p> Final score is: <span id="scoreDisplay"></span></p>
+                    <p>Final score: <span id="scoreDisplay"></span></p>
                     
                     <form>
                         Enter Initials: <input type="text" name="initials" id="initials">

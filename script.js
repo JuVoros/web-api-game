@@ -89,6 +89,8 @@ function storeScore() {
   });
 }
 
+
+
 function displayQ() {
   if (count < questionsArray.length) {
     quizEl.innerHTML = "<h1>" + questionsArray[count][0] + "</h1>";
@@ -157,6 +159,13 @@ quizEl.addEventListener("click", function (event) {
   displayQ();
 });
 
-highScoresBtn.addEventListener("click", storeScore());
 
+
+
+highScoresBtn.addEventListener("click", function() {
+  
+
+
+  
+})
 init();
